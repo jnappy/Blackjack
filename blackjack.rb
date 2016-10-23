@@ -1,7 +1,8 @@
 # My procedural ruby blackjack game
 # Learning the basics
-
-# Hi, Gary. This is Jay. See you in a few weeks.
+puts("what is your name?")
+user_name = gets.strip
+puts("Hello, #{user_name}!")
 
 def calculate_total(cards)
   # [['H', '3'], ['S', 'Q'], ...]
